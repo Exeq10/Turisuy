@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "depto": "Treinta y Tres",
+    "place": "Quebrada de los Cuervoss",
+    "description": "El paisaje protegido Quebrada de los Cuervos y Sierras del Yerbal (más conocido como Quebrada de los Cuervos) es un paisaje protegido de Uruguay, que desde 2008 integra el Sistema Nacional de Áreas Protegidas (SNAP). Lo conforma un accidente geográfico en forma de garganta, situado a 45 km de la ciudad de Treinta y Tres, en la 5ª sección judicial del departamento homónimo. Su topografía serrana de rocas metamórficas presenta alturas de hasta 300 msnm.1​ Su nombre proviene de la presencia abundante del «cuervo» de cabeza roja o buitre americano cabecirrojo ",
+    "picture": "build/img/Quebrada de los Cuervos.webp",
+    "categoria": "Recomendado",
+    "class": "r",
+    "precio": 250,
+    "imgThumb": "build/img/quebra1.webp",
+    "imgThumb2": "build/img/quebra2.webp"
+  },
+
+  {
+    "id": 2,
+    "depto": "rocha",
+    "place": "La Paloma ",
+    "description": "La Paloma es una ciudad de la costa sureste de Uruguay, al este de Montevideo. El faro blanco y delgado de Cabo Santa María mira desde lo alto al Atlántico, cerca de las tradicionales cabañas de los pescadores. Cerca están la Bahía Chica y la Bahía Grande, playas de arena con aguas tranquilas. El Centro Cultural La Paloma es sede de eventos culturales. Al oeste se encuentra la playa Los Botes, con un fuerte oleaje y la Laguna de Rocha, una reserva de humedales con aves migratorias. ",
+    "picture": "build/img/lapaloma.webp",
+    "categoria": "Relax",
+    "class": "rx",
+    "precio": 240,
+    "imgThumb": "build/img/la-paloma-011579500-1453949158.jpg",
+    "imgThumb2": "build/img/paloma2.webp"
+  },
+  {
+    "id": 3,
+    "depto": "rocha",
+    "place": "Punta del Diablo ",
+    "description": "Punta del Diablo es una pequeña localidad pesquera y un centro turístico junto al mar en la costa este de Uruguay. La Playa de los Pescadores en el centro está llena de botes pesqueros y cuenta con el monumento blanco De Artigas a Bolívar sobre sus rocas. Cerca están los puestos que venden artesanías y la playa Rivero, conocida por su fuerte oleaje. La playa Grande de arena y con curvas bordea el Parque Nacional Santa Teresa, que se caracteriza por sus bosques de eucaliptos y pinos.",
+    "picture": "build/img/punta-del-diablo-rocha-turismo.webp",
+    "categoria": "Recomendado",
+    "class": "r",
+    "precio": 180,
+    "imgThumb": "build/img/pdd2.jpg",
+    "imgThumb2": "build/img/pdd2.webp"
+  },
+  {
+    "id": 4,
+    "depto": "rocha",
+    "place": "Sierras de Rocha ",
+    "description": "Te mostramos un lugar mágico en Uruguay. Las Sierras de Rocha son un lugar espectacular para conectarse con uno mismo y la naturaleza. ",
+    "picture": "build/img/caballos-de-luz-060143700-1496239954.webp",
+    "categoria": "Aventura",
+    "class": "av",
+    "precio": 430,
+    "imgThumb": "build/img/sierra1.webp",
+    "imgThumb2": "build/img/sierra2.webp"
+  },
+  {
+    "id": 5,
+    "depto": "maldonado",
+    "place": "Piriapolis  ",
+    "description": "Piriápolis es una ciudad de la costa del Atlántico en el suroeste de Uruguay. Es uno de los primeros balnearios del país y se conoce por sus edificios de estilo belle époque, como el Argentino Hotel frente al mar. Cerca del puerto de Piriápolis, que se encuentra repleto de yates, una aerosilla sube hacia el Cerro San Antonio, que tiene una pequeña capilla encalada y un mirador. El paseo frente al mar Rambla de los Argentinos se curva alrededor de la bahía y de la playa Piriápolis. ",
+    "picture": "build/img/La-Rambla-de-Piriápolis.webp",
+    "categoria": "Relax",
+    "class": "rx",
+    "precio": 410,
+    "imgThumb": "build/img/piria1.webp",
+    "imgThumb2": "build/img/piria2.webp"
+  },
+  {
+    "id": 6,
+    "depto": "maldonado",
+    "place": "Punta del Este  ",
+    "description": "Punta del Este es un balneario que se encuentra en una angosta península del sudeste de Uruguay. La popular playa Brava es conocida por su fuerte oleaje y por 'La mano', una escultura gigante de 5 dedos. En la costa oeste, la playa Mansa tiene aguas tranquilas y poco profundas. En la Plaza Artigas, cerca de las exclusivas tiendas de Avenida Gorlero, se venden artesanías locales. El faro del siglo XIX en la punta sur de la península tiene una plataforma de observación",
+    "picture": "build/img/Dedos-Mano-Punta-Del-Este.webp",
+    "categoria": "Recomendado",
+    "class": "r",
+    "precio": 575,
+    "imgThumb": "build/img/pde1.webp",
+    "imgThumb2": "build/img/pde2.webp"
+  },
+  {
+    "id": 7,
+    "depto": "maldonado",
+    "place": "Cerro pan de Azucar ",
+    "description": "El cerro Pan de Azúcar es una elevación ubicada en el departamento de Maldonado, Uruguay. Con sus 389 msnm, se ubica entre los cerros más altos del país,En su cima hay una cruz de cemento de 35 m de altura la cual fue construida en 1933 y fue concebida por el Arquitecto Guillermo Armas O´Shanahan, el escultor José Luis Zorrilla de San Martín y el padre Engels Walters. Se puede entrar y subir hasta sus 'brazos', desde donde hay una vista muy buena.Quien no sepa o no haya subido al cerro, diría que la cruz no mide más de 2 m, ya que desde la base del cerro o de lugares más alejados la perspectiva que produce es espectacular",
+    "picture": "build/img/pan-de-azucar1.jpg",
+    "categoria": "Aventura",
+    "class": "av",
+    "precio": 150,
+    "imgThumb": "",
+    "imgThumb2": ""
+  },
+  {
+    "id": 8,
+    "depto": "rivera ",
+    "place": "Valle del Lunarejo  ",
+    "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documen ",
+    "picture": "build/img/valle lunarejo.webp",
+    "categoria": "Aventura",
+    "class": "av",
+    "precio": 300,
+    "imgThumb": "build/img/valle1.webp",
+    "imgThumb2": "build/img/valle2.webp"
+  }
+]

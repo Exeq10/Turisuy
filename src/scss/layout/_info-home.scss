@@ -1,0 +1,101 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.info-home {
+  width: 95%;
+  margin: 0 auto;
+  padding: 3rem;
+  @include m.grid(1, 1);
+  gap: 2rem;
+
+  justify-content: center;
+  align-items: center;
+
+  @include m.tablet {
+    @include m.grid (2,1);
+    
+  } 
+  
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+    &::after{
+        content: '';
+        width: 150px ;
+
+        border-bottom: 1px solid black;
+    }
+
+ 
+}
+
+.gray-text {
+  font-size: 1.5rem;
+  margin-bottom: 2.3rem;
+  color: gray;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.text {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.info-image {
+  margin-top: 10rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  img{
+    border-radius: 1.2rem;
+    border: 1px solid white;
+    transition: linear 300ms;
+
+    &:hover{
+        transform: scale(1.2)
+
+    }
+  }
+
+  .image-one {
+    max-width: 50%;
+
+    margin-bottom: -30rem;
+    margin-right: -20rem;
+    z-index: 10;
+    -webkit-box-shadow: -30px 18px 20px 0px rgba(122,122,122,0.08);
+-moz-box-shadow: -30px 18px 20px 0px rgba(122,122,122,0.08);
+box-shadow: -30px 18px 20px 0px rgba(122,122,122,0.08);
+    
+  }
+
+  .image-two {
+    max-width: 75%;
+    margin-top: 10rem;
+    -webkit-box-shadow: -30px 18px 20px 0px rgba(122,122,122,0.08);
+    -moz-box-shadow: -30px 18px 20px 0px rgba(122,122,122,0.08);
+    box-shadow: -30px 18px 20px 0px rgba(122,122,122,0.08);
+    opacity: 0.9;
+        
+  }
+
+  @include m.tablet {
+    margin-top: 0;
+    
+  } 
+}
