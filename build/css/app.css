@@ -715,6 +715,11 @@ picture {
   z-index: 11;
   padding: 2rem;
 }
+.header .header-text {
+  text-align: center;
+  color: var(--white);
+  margin-top: 5rem;
+}
 
 /* logo */
 .logo {
@@ -762,6 +767,15 @@ picture {
 .search button img {
   filter: invert(100%);
   width: 2rem;
+}
+.search button,
+.search i {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.search .search-icon {
+  width: 2.5rem;
 }
 
 /* navegacion */

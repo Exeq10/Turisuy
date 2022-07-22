@@ -14,6 +14,11 @@
     z-index: 11;
     padding: 2rem;
 
+.header-text {
+    text-align: center;
+    color: var(--white);
+    margin-top: 5rem;
+}
 
 
 
@@ -84,6 +89,18 @@
            
         }
     }
+
+    button,
+    i {
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .search-icon {
+        width: 2.5rem;
+    }
+
 }
 
 
