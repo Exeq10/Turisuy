@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Playas",
+    "place": "La paloma",
+    "shortdescription": "La Paloma es una ciudad de la costa sureste de Uruguay, al este de Montevideo. El faro blanco y delgado de Cabo Santa María mira desde lo alto al Atlántico.... ",
+    "description": "La Paloma es una ciudad de la costa sureste de Uruguay, al este de Montevideo. El faro blanco y delgado de Cabo Santa María mira desde lo alto al Atlántico.... cerca de las tradicionales cabañas de los pescadores. Cerca están la Bahía Chica y la Bahía Grande, playas de arena con aguas tranquilas. El Centro Cultural La Paloma es sede de eventos culturales. Al oeste se encuentra la playa Los Botes, con un fuerte oleaje y la Laguna de Rocha, una reserva de humedales con aves migratorias. ",
+    "picture": "build/img/la-paloma-011579500-1453949158.jpg",
+    "autor": "Paula Valdez",
+    "name2": "Ballenas "
+  },
+  {
+    "id": 2,
+    "name": "Ballenas ",
+    "place": "La paloma",
+    "shortdescription": "Uruguay es un país afortunado. Entre julio y fines de octubre recibe la visita de un hermoso gigante: La Ballena Franca Austral... ",
+    "description": "Uruguay es un país afortunado. Entre julio y fines de octubre recibe la visita de un hermoso gigante: La Ballena Franca Austral <p>Ayer fue un día muy especial. Grupos de ballenas franca Austral brindaron espectáculo frente a las costas de La Paloma. Hoy, aunque el mar estaba picado, se vieron en La Pedrera durante la tarde, tanto en el Desplayado como en la Playa del Barco. Imágenes impactantes.</p> ",
+    "picture": "build/img/ballenas.webp",
+    "autor": "Paula Valdez"
+  },
+  {
+    "id": 3,
+    "name": "Surf",
+    "place": "La paloma",
+    "shortdescription": "El surf es, para algunos, un punto de fuga para los fines de semana o para las vacaciones entre amigos y familia. Para otros, sin embargo, es un modo de vida, una filosofía...",
+    "picture": "build/img/surf.webp",
+    "description": "El surf es, para algunos, un punto de fuga para los fines de semana o para las vacaciones entre amigos y familia. Para otros, sin embargo, es un modo de vida, una filosofía, una forma de ser y estar en el mundo. En ambos casos, la cercanía y la relación con el mar es fundamentalpor lo que conocer los lugares -o spots como se denomina en la jerga surfista- para entrar al agua y deslizarse sobre una ola es más que importante, tanto sea para aquel que corre sus primeras olas como para un surfista profesional o un rider apasionado por la libertad y el inmenso contacto con la naturaleza.",
+    "autor": "Paula Valdez"
+  },
+  {
+    "id": 4,
+    "name": "Viñedos",
+    "place": "Canelones",
+    "shortdescription": " Como habrás escuchado en tantas ocasiones, Uruguay tiene muy buenos vinos en su producción... ",
+    "picture": "build/img/big_viñedo.webp",
+    "description": "Las primeras cepas llegaron a la Banda Oriental de la mano de los colonizadores españoles. Ellos plantaron la vid, junto al olivo y al nogal a mediados del siglo XVII, dando comienzo a la historia del vino en el país",
+    "autor": "Exequiel Schiavo"
+  },
+  {
+    "id": 5,
+    "name": "Ganaderia",
+    "place": "Rocha ",
+    "shortdescription": "Uruguay tiene una propuesta de turismo rural llena de experiencias auténticas para vivir en familia...",
+    "picture": "/build/img/record-vacuno.webp",
+    "description": "En nuestro territorio la actividad rural se desarrolla en establecimientos de diversos tipos y tamaños desde grandes estancias turísticas y hoteles de campo hasta pequeñas granjas familiares, que tienen como denominador común la gran hospitalidad de su gente.",
+    "autor": "Exequiel Schiavo"
+  },
+  {
+    "id": 6,
+    "name": "Cultura y Patrimonio",
+    "place": "Montevideo",
+    "shortdescription": "Contemplar ejemplares únicos de estilo art decó, descifrar el candombe, entregarse a las particularidades del tango uruguayo o descubrir porqué algunos sitios uruguayos merecieron la… ",
+    "picture": "build/img/Candombe-750x450.jpg",
+    "description": " distinción de la Unesco,  son solo algunas de las alternativas de turismo cultural y patrimonial que pueden disfrutarse en Uruguay.",
+    "autor": "Exequiel Schiavo"
+  }
+]

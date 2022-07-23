@@ -31,6 +31,8 @@ background: radial-gradient(circle, rgba(29,30,32,0.26404065043986347) 31%, rgba
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 
+    5rem;
     align-items: center;
 
 
@@ -40,6 +42,7 @@ background: radial-gradient(circle, rgba(29,30,32,0.26404065043986347) 31%, rgba
         color: white;
         text-shadow: 2px 2px 2px #333;
         font-size: 5rem;
+        
        
         @include m.tablet {
             font-size: 8rem;

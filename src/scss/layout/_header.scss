@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem;
+   
     position: absolute;
     
 
@@ -18,7 +18,11 @@
 
 
     @include m.tablet {
-        flex-direction: row
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem;
 
        
         
@@ -27,16 +31,32 @@
    
 
 
+
+
+
+
+
     .nav{
+       
+        display: none;
         
+
+
+        @include m.tablet {
+            display: flex;
+            
+            
+        } 
        
 
     
         margin-top: 3rem;
         ul{
             display: flex;
-            gap: 2rem;
+            padding: 0;
            
+            gap: 1rem;
+            
            
 
             @include m.tablet {
@@ -67,8 +87,13 @@
                     color: rgba(255, 255, 255, 0.685);
                 }
                 img{
-                    width: 2.5rem;
+                    width: 2rem;
                     filter: invert(100%);
+
+                    @include m.tablet {
+                        width: 2.5rem;
+                        
+                    } 
                 }
 
                 a{
@@ -91,10 +116,76 @@
 
    
 }
+/* mobile navegacion */
 
+.--mobile{
+
+   
+    
+    display: flex;
+    position: relative;
+    @include m.tablet {
+        display: none;
+
+        
+    } 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   
 
 
    
+
+
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 0;
+       
+
+        li{
+            margin-bottom: 1rem;
+            margin-left: 2px ;
+            margin-right: 2px ;
+
+            a{
+                margin-bottom: 2rem;
+            }
+            
+
+            .btn-primary{
+
+                margin: 0;
+            }
+        }
+    }
+
+    img{
+        width: 2rem;
+         filter: invert(100%);
+    }
+}
+
+
+   /* boton menu mobile  */
+
+
+   .burguer-mobile{
+    width: 4rem;
+    background-color: transparent;
+    filter: invert(100%);
+    margin-bottom: 1rem;
+
+    @include m.tablet {
+
+        display: none;
+        
+    } 
+
+   }
 
 
 
@@ -111,6 +202,7 @@
     width: 2rem;
     background-color: transparent;
     transition: all 300ms;
+    margin-left: 2rem;
 
 
     &:hover{
@@ -145,16 +237,25 @@ justify-content: center;
 align-items: center;
 width: 100%;
 
-input{
-    width: 20%;
+select{
+    width: 90%;
     height: 3rem;
+    padding-left: 2px ;
 
     border: white;
 
+    font-size: 1.4rem;
+
+    @include m.tablet {
+
+        width: 20%;
+        
+    } 
+
 
     &:focus{
-
-        outline-color: white;
+outline: none;
+        
     }
 }
     img{
@@ -165,12 +266,18 @@ input{
 
 .button-search{
 
-    background-color: transparent;
+    background-color: v.$color2;
+    height: 3.1rem;
     border: none;
 
 
     img{
         filter: invert(100%);
+        transition: 300ms;
+
+        &:hover{
+            transform: scale(1.2);
+        }
     }
 }
  
