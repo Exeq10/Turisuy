@@ -9,7 +9,13 @@
 
     .travel-card{
 
-        width: 25%;
+        width: 100%;
+        margin: 0 auto;
+
+        @include m.tablet {
+            
+            width: 25%;
+        } 
     }
 
     width: 80%;

@@ -10,7 +10,6 @@ function search() {
   fetch("/build/js/destinos.json")
     .then((res) => res.json())
     .then((data) => {
-      console.log(data);
       let result = data.filter((data) => data.id == destino);
 
       console.log(result);
@@ -25,7 +24,12 @@ function search() {
         imgThumb2,
       } = result[0];
 
-      console.log(precio);
+      const { services } = result[0];
+
+      console.log(typeof services);
+      console.log(services);
+
+      let servicios = services[0];
 
       item.innerHTML = `
       <div class="item-card">
@@ -57,38 +61,27 @@ function search() {
           <div class="action-item">
               <h3 class="subtitle --blue">${place}</h3>
 
-              <p>${description}.</p>
+             
+              <div class="text">  <p>${description}.</p></div>
 
               <h4 class="subtitle --blue">Servicios</h4>
 
 
               <div class="servicesIcon">
-
-                  <div class="s-detail">
-                      <img src="build/img/bed-solid.svg" alt="">
-                      <p>Hospedaje</p>
-                  </div>
-                  <div class="s-detail">
-                      <img src="build/img/bed-solid.svg" alt="">
-                      <p>Hospedaje</p>
-                  </div>
-                  <div class="s-detail">
-                      <img src="build/img/bed-solid.svg" alt="">
-                      <p>Hospedaje</p>
-                  </div>
-                  <div class="s-detail">
-                      <img src="build/img/bed-solid.svg" alt="">
-                      <p>Hospedaje</p>
-                  </div>
-
+              
+               
+               
+              ${viewService(servicios)}
+                   
+               
 
               </div>
               <div class="amount">
-                  <label for="quantity">Personas</label>
-                  <input type="number" name="quantity" id="quantity" min="1" placeholder="1"
-                      onchange="getvalue()">
+                  <label for="quantity">Personas
+                  <input type="number" name="quantity" id="quantity" min="1" placeholder="0" selected 
+                      onchange="getvalue()"></label>
+                      <button class="btn" id="total" value="${precio}">U$S ${precio}</button>
               </div>
-              <button class="btn" id="total" value="${precio}">U$S ${precio}</button>
 
               </div>
               
@@ -117,4 +110,25 @@ function getvalue() {
   console.log(result);
 
   total.innerHTML = `U$S ${result}`;
+}
+
+/* funcion que itera en Services y muestra los servicios de cada destino / se ejecuta luego de que el html esta presente para insertar los iconos  */
+function viewService(service) {
+  setTimeout(() => {
+    const servicesIcon = document.querySelector(".servicesIcon");
+    servicesIcon.innerHTML = "";
+
+    /* recorre el objeto para traer llave y valor del mismo  */
+
+    for (const key in service) {
+      if (Object.hasOwnProperty.call(service, key)) {
+        const imgService = service[key]; /* valor */
+        const nameService = key; /* llave */
+        servicesIcon.innerHTML += `<div class="s-detail">
+             <img src="${imgService}" alt="">
+             <p>${nameService}</p>
+         </div>`;
+      }
+    }
+  }, 100);
 }

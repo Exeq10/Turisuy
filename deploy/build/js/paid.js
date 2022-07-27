@@ -57,7 +57,8 @@ function search() {
           <div class="action-item">
               <h3 class="subtitle --blue">${place}</h3>
 
-              <p>${description}.</p>
+             
+              <div class="text">  <p>${description}.</p></div>
 
               <h4 class="subtitle --blue">Servicios</h4>
 
@@ -84,11 +85,11 @@ function search() {
 
               </div>
               <div class="amount">
-                  <label for="quantity">Personas</label>
-                  <input type="number" name="quantity" id="quantity" min="1" placeholder="1"
-                      onchange="getvalue()">
+                  <label for="quantity">Personas
+                  <input type="number" name="quantity" id="quantity" min="1" placeholder="0" selected 
+                      onchange="getvalue()"></label>
+                      <button class="btn" id="total" value="${precio}">U$S ${precio}</button>
               </div>
-              <button class="btn" id="total" value="${precio}">U$S ${precio}</button>
 
               </div>
               
