@@ -96,6 +96,6 @@ function viewHtml(result) {
       </div>
       <!-- fin card travel  -->`;
     });
-    localStorage.clear();
+    localStorage.removeItem("place");
   }, 1500);
 }

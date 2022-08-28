@@ -113,7 +113,7 @@ function Select() {
   });
 }
 
-/* cambia imagen en el item seleccioando   */
+/* cambia imagen en el item seleccioando  en la galeria de imagenes   */
 
 function changeImg() {
   window.addEventListener("click", (e) => {

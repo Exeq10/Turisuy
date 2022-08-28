@@ -10,7 +10,7 @@ function load() {
     .then((data) => {
       data.forEach((element) => {
         container.innerHTML += `<!-- entry -->
-        <div class=" --flexC wow animate__animated  animate__bounceInLeft ">
+        <div class=" entry wow animate__animated  animate__bounceInLeft ">
           <img  src="${element.picture}" alt="" />
     
           <div class="text-entry ">
