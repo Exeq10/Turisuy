@@ -1,0 +1,100 @@
+@mixin tablet {
+    @media (min-width: 821px) {
+        @content
+    }
+}
+
+;
+@mixin phone {
+    @media (max-width: 468px) {
+        @content
+    }
+}
+
+;
+@mixin desktop {
+    @media (min-width: 992px) {
+        @content
+    }
+}
+
+;
+@mixin grid ($columnas, $gap) {
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $gap;
+    padding: 3rem;
+    justify-content: center;
+    align-content: center;
+}
+
+@mixin boton($color, $fondo, $hcolor, $hfondo) {
+    text-transform: uppercase;
+    color: $color;
+    background-color: $fondo;
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+    text-decoration: none;
+    
+    padding: 0.7rem;
+    &:hover {
+        color: $hcolor;
+        background-color: $hfondo;
+        transition: 300ms;
+    }
+}
+
+@mixin parpadeo {
+    animation-name: parpadeo;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: parpadeo;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    @-moz-keyframes parpadeo {
+        0% {
+            opacity: 1.0;
+        }
+        50% {
+            opacity: 0.0;
+        }
+        100% {
+            opacity: 1.0;
+        }
+    }
+    @-webkit-keyframes parpadeo {
+        0% {
+            opacity: 1.0;
+        }
+        50% {
+            opacity: 0.0;
+        }
+        100% {
+            opacity: 1.0;
+        }
+    }
+    @keyframes parpadeo {
+        0% {
+            opacity: 1.0;
+        }
+        50% {
+            opacity: 0.0;
+        }
+        100% {
+            opacity: 1.0;
+        }
+    }
+}
+
+@mixin oculto {
+    opacity: 0;
+    transition: 2s;
+}
+
+@mixin visto {
+    opacity: 1;
+    transition: 2s;
+}

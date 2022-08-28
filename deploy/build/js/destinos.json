@@ -9,7 +9,14 @@
     "class": "r",
     "precio": 250,
     "imgThumb": "build/img/quebra1.webp",
-    "imgThumb2": "build/img/quebra2.webp"
+    "imgThumb2": "build/img/quebra2.webp",
+    "services": [
+      {
+        "Hotel": "build/img/hotel-solid.svg",
+        "Restaurant": "build/img/burger-solid.svg",
+        "Bus": "build/img/bus-solid.svg"
+      }
+    ]
   },
 
   {
@@ -22,7 +29,17 @@
     "class": "rx",
     "precio": 240,
     "imgThumb": "build/img/la-paloma-011579500-1453949158.jpg",
-    "imgThumb2": "build/img/paloma2.webp"
+    "imgThumb2": "build/img/paloma2.webp",
+
+    "services": [
+      {
+        "Hotel": "build/img/hotel-solid.svg",
+        "Playa": "build/img/umbrella-beach-solid.svg",
+        "Pesca": "build/img/fish-fins-solid.svg",
+        "Bus": "build/img/bus-solid.svg",
+        "Restaurant": "build/img/burger-solid.svg"
+      }
+    ]
   },
   {
     "id": 3,
@@ -34,7 +51,14 @@
     "class": "r",
     "precio": 180,
     "imgThumb": "build/img/pdd2.jpg",
-    "imgThumb2": "build/img/pdd2.webp"
+    "imgThumb2": "build/img/pdd2.webp",
+    "services": [
+      {
+        "Hotel": "build/img/hotel-solid.svg",
+        "Playa": "build/img/umbrella-beach-solid.svg",
+        "Pesca": "build/img/fish-fins-solid.svg"
+      }
+    ]
   },
   {
     "id": 4,
@@ -46,7 +70,14 @@
     "class": "av",
     "precio": 430,
     "imgThumb": "build/img/sierra1.webp",
-    "imgThumb2": "build/img/sierra2.webp"
+    "imgThumb2": "build/img/sierra2.webp",
+    "services": [
+      {
+        "Hotel": "build/img/hotel-solid.svg",
+        "Senderismo": "build/img/senderista.png",
+        "Mountain Bike": "build/img/person-biking-solid.svg"
+      }
+    ]
   },
   {
     "id": 5,
@@ -58,7 +89,16 @@
     "class": "rx",
     "precio": 410,
     "imgThumb": "build/img/piria1.webp",
-    "imgThumb2": "build/img/piria2.webp"
+    "imgThumb2": "build/img/piria2.webp",
+    "services": [
+      {
+        "Hotel": "build/img/hotel-solid.svg",
+        "Playa": "build/img/umbrella-beach-solid.svg",
+        "Pesca": "build/img/fish-fins-solid.svg",
+        "Bus": "build/img/bus-solid.svg",
+        "Restaurant": "build/img/burger-solid.svg"
+      }
+    ]
   },
   {
     "id": 6,
@@ -70,7 +110,16 @@
     "class": "r",
     "precio": 575,
     "imgThumb": "build/img/pde1.webp",
-    "imgThumb2": "build/img/pde2.webp"
+    "imgThumb2": "build/img/pde2.webp",
+    "services": [
+      {
+        "Hotel": "build/img/hotel-solid.svg",
+        "Playa": "build/img/umbrella-beach-solid.svg",
+        "Pesca": "build/img/fish-fins-solid.svg",
+        "Bus": "build/img/bus-solid.svg",
+        "Restaurant": "build/img/burger-solid.svg"
+      }
+    ]
   },
   {
     "id": 7,
@@ -81,8 +130,15 @@
     "categoria": "Aventura",
     "class": "av",
     "precio": 150,
-    "imgThumb": "",
-    "imgThumb2": ""
+    "imgThumb": "build/img/pandeazucar1.webp",
+    "imgThumb2": "build/img/pandeazucar2.jpg",
+    "services": [
+      {
+        "Hotel": "build/img/hotel-solid.svg",
+        "Senderismo": "build/img/senderista.png",
+        "Bus": "build/img/bus-solid.svg"
+      }
+    ]
   },
   {
     "id": 8,
@@ -94,6 +150,13 @@
     "class": "av",
     "precio": 300,
     "imgThumb": "build/img/valle1.webp",
-    "imgThumb2": "build/img/valle2.webp"
+    "imgThumb2": "build/img/valle2.webp",
+    "services": [
+      {
+        "Hotel": "build/img/hotel-solid.svg",
+        "Senderismo": "build/img/senderista.png",
+        "Bus": "build/img/bus-solid.svg"
+      }
+    ]
   }
 ]
