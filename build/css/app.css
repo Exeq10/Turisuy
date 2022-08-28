@@ -1042,7 +1042,7 @@ picture {
 .--nosotros {
   animation: none;
   background-position: bottom center;
-  background-image: url("/src/img/wepik-creative-art-history-general-presentation-202262-17226.jpeg");
+  background-image: url("/build/img/view-of-monte-ferro-from-playa-america-nigran-spain.webp");
   height: 60vh;
 }
 
@@ -1688,10 +1688,20 @@ input[type=number]:focus {
   width: 10rem;
 }
 .table-cart .name-table {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+}
+@media (min-width: 821px) {
+  .table-cart .name-table {
+    font-size: 1.6rem;
+  }
 }
 .table-cart .price-table {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+}
+@media (min-width: 821px) {
+  .table-cart .price-table {
+    font-size: 1.6rem;
+  }
 }
 
 .buttons {
@@ -1703,7 +1713,12 @@ input[type=number]:focus {
 }
 .buttons button {
   width: 20%;
-  font-size: 2rem;
+  font-size: 1.3rem;
+}
+@media (min-width: 821px) {
+  .buttons button {
+    font-size: 2rem;
+  }
 }
 
 .footer {
